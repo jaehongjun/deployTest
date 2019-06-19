@@ -6,8 +6,8 @@ export default () => {
   const t = useT();
   return (
     <>
-      <h1>{t("Hello!")}</h1>
-      <button onClick={() => setLang("es")}>Translate</button>
+      <h1>{t("Hello")}</h1>
+      <button onClick={() => setLang("es")}>{t("translate")}</button>
     </>
   );
 };

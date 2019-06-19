@@ -7,6 +7,8 @@ const Lang = ({ defaultLang, children, translations }) => {
   const hyperTranslate = text => {
     if (lang === defaultLang) {
       return text;
+    } else {
+      return translations[lang][text];
     }
   };
   return (
@@ -23,5 +25,6 @@ export const useSetLang = lang => {
 
 export const useT = () => {
   const { t } = useContext(LangContext);
+  return t;
 };
 export default Lang;
