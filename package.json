@@ -1,5 +1,5 @@
 {
-  "name": "hooks-app",
+  "name": "deployTest",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
@@ -16,7 +16,7 @@
     "deploy": "gh-pages -d build",
     "predeploy": "yarn run build"
   },
-  "homepage": "https://jaehongjun.github.io/hooks-app",
+  "homepage": "https://jaehongjun.github.io/deployTest",
   "eslintConfig": {
     "extends": "react-app"
   },
